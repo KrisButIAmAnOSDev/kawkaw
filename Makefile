@@ -13,6 +13,7 @@ kawkaw_FILES = main.m kawkawAppDelegate.m kawkawExploit.m \
 kawkaw_CFLAGS = -fobjc-arc -I$(SRCROOT)/exploit -I$(SRCROOT) -Wno-unused-function -Wno-deprecated-declarations
 kawkaw_CODESIGN_FLAGS = -Sentitlements.plist
 kawkaw_RESOURCE_FILES = Resources
+kawkaw_INFO_PLIST = Info.plist
 
 include $(THEOS)/makefiles/application.mk
 
