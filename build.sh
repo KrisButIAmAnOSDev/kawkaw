@@ -14,7 +14,6 @@ make
 
 echo "[*] Packaging IPA..."
 mkdir -p build/Payload
-# Package from the MERGED bundle path (contains Info.plist), not the arch-specific one
 cp -r .theos/obj/debug/kawkaw.app build/Payload/
 rm -rf build/Payload/kawkaw.app/kawkaw.dSYM
 cd build && zip -qr kawkaw.ipa Payload
