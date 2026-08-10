@@ -14,6 +14,8 @@ kawkaw_CFLAGS = -fobjc-arc -I$(SRCROOT)/exploit -I$(SRCROOT) -Wno-unused-functio
 kawkaw_CODESIGN_FLAGS = -Sentitlements.plist
 kawkaw_RESOURCE_FILES = Resources
 kawkaw_INFO_PLIST = Info.plist
+kawkaw_FRAMEWORKS = UIKit CoreFoundation Foundation
+kawkaw_PRIVATE_FRAMEWORKS = IOSurface
 
 include $(THEOS)/makefiles/application.mk
 
