@@ -1,4 +1,4 @@
-ARCHS := arm64e
+ARCHS := arm64 arm64e
 TARGET := iphone:clang:latest:16.0
 INSTALL_TARGET_PROCESSES = kawkaw
 
