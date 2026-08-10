@@ -7,5 +7,5 @@ Description: kawkaw
 Maintainer: kawkaw
 Author: kawkaw
 Section: Tweaks
-Version: 0.1
+Version: 1.0
 Depends: firmware (>= 16.0)
