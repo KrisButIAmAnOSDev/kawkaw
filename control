@@ -1,0 +1,11 @@
+packageName = kawkaw
+packageDepends = firmware (>= 16.0), mobilesubstrate
+architecture = iphoneos-arm
+
+Name: kawkaw
+Description: kawkaw
+Maintainer: kawkaw
+Author: kawkaw
+Section: Tweaks
+Version: 0.1
+Depends: firmware (>= 16.0)
